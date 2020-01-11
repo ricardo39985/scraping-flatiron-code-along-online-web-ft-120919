@@ -31,7 +31,7 @@ class Scraper
       new_course.title = article.css("h2").text
       new_course.schedule = article.css(".date").text
       new_course.description = article.css("p").text
-      puts new_course.description
+      puts new_course.title
 
     end
     # binding.pry
